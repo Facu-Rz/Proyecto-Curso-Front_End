@@ -50,6 +50,7 @@ body{
     display: flex;
     padding: 1rem;
     margin-right: 2rem;
+    border-radius: 2rem;
 }
 
 .header__nav{
@@ -155,6 +156,8 @@ main .parrafo-home{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    height: 100%;
 
     gap: 1rem;
 }
@@ -170,7 +173,27 @@ main .parrafo-home{
 
 .tarjeta-producto img{
     width: 100%;
+    height: 30rem;
     border-radius: 0.5rem;
+}
+
+.tarjeta-producto button{
+    margin-top: auto;
+}
+
+.boton{
+    font-family: "Spectral", serif;
+    background-color:black ;
+    color: white;
+
+    padding: 0.8rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 10rem;
+
+    border: none;
+    border-radius: 0.7rem;
+    cursor: pointer;
 }
 
 .seccion-contacto {

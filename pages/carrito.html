@@ -3,48 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
     <link rel="stylesheet" href="../css/style.css" /> 
-    <title>Contacto</title>
 </head>
 <body>
     <header class="header">
         <p class="header__logo">
             <a href="../index.html">Mi Tienda</a>
         </p>
-
         <nav class="header__nav">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./carrito.html"> 🛒 <span id="contadorCarrito">0</span></a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="seccion-contacto">
-            <h1 class="titulo-contacto">Contacto</h1>
-            <form
-                class="form"
-                action="https://formspree.io/f/xyznbbke"
-                method="POST"
-                >
-                <div class="campo-form">
-                    <label for="email"> Correo:</label>
-                    <input id="email" type="email" name="email" />
-                </div>
+        <h1>Carrito de compras</h1>
+        <section id="contenidoCarrito" class="contenedor-tarjetas">
 
-                <div class="campo-form">
-                    <label for="mensaje"> Mensaje</label>
-                    <textarea id="mensaje" name="message"></textarea>
-                </div>
+        </section>
+        <div id="accionesCarrito" class="accionesCarrito">
 
-                <input type="hidden" name="subject" value="Contacto desde el sitio" />
+        </div>
+        <section id="infoContenido">
 
-                <button type="submit">Send</button>
-            </form>
         </section>
     </main>
-
     <footer class="footer">
          <p>Diseño de Facu_Rz</p>
         <nav class="footer__nav">
@@ -58,5 +45,6 @@
         </section>
         </nav>
     </footer>
+    <script src="../js/carrito.js" type="module"></script>
 </body>
 </html>

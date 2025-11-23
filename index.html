@@ -10,7 +10,7 @@
     <header class="header">
         <div class="header__logo">
             <img src="./img/LogoGatito.png" alt="LogoGatito" width="100" height="100">
-            <a href="index.html">Bienvenidos a mi proyecto</a>
+            <a href="index.html">Mi Tienda</a>
         </div>
 
         <nav class="header__nav">
@@ -20,6 +20,7 @@
                 <li><a href="">Productos</a></li>
                 <li><a href="">Servicios</a></li>
                 <li><a href="./pages/contacto.html">Contacto</a></li>
+                <li><a href="./pages/carrito.html"> 🛒 <span id="contadorCarrito">0</span></a></li>
             </ul>
         </nav>
     </header>
@@ -27,27 +28,34 @@
         <section class="productos-home">
             <h2>Algunos de nuestros productos</h2>
 
-            <div class="contenedor-tarjetas">
+           
+            <div id="contenedor-tarjetas" class="contenedor-tarjetas">
+                 <!--
                 <article class="tarjeta-producto">
                     <img src="./img/SamsungS25_foto.PNG" alt="Imagen del producto SamsungS25"/>
                     <h3>Samsung Galaxy S25</h3>
                     <p>Precio: $1500</p>
+                    <button class="boton">Agregar al carrito</button>
                 </article>
                 <article class="tarjeta-producto">
                     <img src="./img/Iphone16_foto.PNG" alt="Imagen del producto Iphone16"/>
                     <h3>Iphone 16 Pro Max</h3>
                     <p>Precio: $3500</p>
+                    <button class="boton">Agregar al carrito</button>
                 </article>
                 <article class="tarjeta-producto">
                     <img src="./img/POCOx7_foto.PNG" alt="Imagen del producto POCOx7"/>
                     <h3>Xiaomi POCO x7 Pro</h3>
                     <p>Precio: $700</p>
+                    <button class="boton">Agregar al carrito</button>
                 </article>
+                -->
             </div>
+            
         </section>
     </main>
     <footer class="footer">
-        <p>Diseño de Facu</p>
+        <p>Diseño de Facu_Rz</p>
         <nav class="footer__nav">
             <ul>
                 <li>Facebook</li>
@@ -59,5 +67,6 @@
         </section>
         </nav>
     </footer> 
+    <script src="./js/index.js" type="module"></script>
 </body>
 </html>
