@@ -1,5 +1,5 @@
 [
-    {"id": 1, "nombre": "Iphone 16 Pro Max" , "precio": 3500 , "img": "/img/Iphone16_foto.jpg"},
-    {"id": 2, "nombre": "POCO x7 Pro" , "precio": 700 , "img": "/img/POCOx7_foto.jpg"},
-    {"id": 3, "nombre": "Samsung Galaxy S25" , "precio": 1500 , "img": "/img/SamsungS25_foto.jpg"}
+    {"id": 1, "nombre": "Iphone 16 Pro Max" , "precio": 3500 , "img": "img/Iphone16_foto.jpg"},
+    {"id": 2, "nombre": "POCO x7 Pro" , "precio": 700 , "img": "img/POCOx7_foto.jpg"},
+    {"id": 3, "nombre": "Samsung Galaxy S25" , "precio": 1500 , "img": "img/SamsungS25_foto.jpg"}
 ]
